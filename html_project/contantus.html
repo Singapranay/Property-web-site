@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>contact us</title>
+   <link rel="stylesheet" href="style.css"> 
+  <style>
+    body{
+        background-image: url(img/con1.jpg);
+        height: 100vh;
+  background-size: cover;
+  background-position: center;
+    }
+    .con{
+        position: absolute;
+    border: 5px solid;
+    border-color: #66d8e7;
+    width: 524px;
+    border-radius: 10px;
+    left: 100px;
+    top: 200px;
+
+}
+.inside{
+  background-color: #66d8e7;
+  width:525px;
+}
+.inside label{
+    color: rgb(255, 0, 0);
+}
+  </style>
+</head>
+
+<body>
+  <div class="con">
+    <div class="inside">
+      <h2>Contact us</h2>
+    </div>
+    <form action="mailto:singapranay123@gmail.com" method="post" enctype="text/plain" style=" height: 270px; margin-top:10px;">
+      <label>
+        <b>Your Name:</b>
+      </label>
+      <input type="text" name="Your name" value=""><br>
+      <label><b>Your email</b></label>
+      <input type="email" name="Your Email" value=""><br>
+      <label> <b>Time</b> </label>
+      <input type="time" name="Time"><br>
+      <label><b>Type your feedback</b></label><br>
+      <textarea name="Type your feedback" rows="6" cols="60" ></textarea><br>
+      <input type="submit" name="">
+    </form>
+    
+  </div>
+
+
+
+
+</body>
+
+</html>
